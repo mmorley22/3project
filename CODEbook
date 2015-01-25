@@ -1,6 +1,12 @@
 There are only 4 variables in the tidy.txt file
 
-subject - integer-- this is the subject code merged in from the subject_train.txt and the subject_test.txt files there are 30 subjects
-activity - factor (text) -this is the desciptive name of the activity using the activity_labels.txt to merge in with the y data  there are 6 activities
-variable -factor (text) - contains the variable from the x test and x train files for example tBodyAccmeanX there 79 variables
-value - number-- contains the mean value of the data by subject, activity, and variable
+subject - integer-- this is the subject code merged in from the subject_txt
+
+
+activity - factor (text) -the name from activity_labels.txt 
+
+
+measurement_type -factor (text) - contains the type of measurement from the x test and x train files for example tBodyAccmeanX there 79 variables
+
+
+mean - number-- contains the mean of that measurement for that subject and activity
