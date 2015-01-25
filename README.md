@@ -12,10 +12,13 @@ All of the input data files must be in the working directory for the code to run
 * Y_test.txt
 * Y_train.txt
 * actitivty_labels.txt
-The code uses the packages dplyr and reshape2
+
+
+###The code uses the packages dplyr and reshape2
 It will insall the packages and load them
 the output of the code is a file called "tidy.txt"
-The file has only 4 variables 
+
+###The file has only 4 variables 
 *subject-- the subject code
 *activity-- the description of the activity, for example LAYING 
 *mesurement_type which is from the xtest or xtrain data, for example tBodyAccmeanX
